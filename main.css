@@ -1,0 +1,39 @@
+
+body { 
+	background-color: #f5f5f5; 
+	color: #575757; 
+}
+h1 { font-weight: 400; }
+
+
+#whole 
+{
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+#content
+{
+    font-size: 15px;
+    /* 
+	margin: 0 auto;
+	padding-top: 70px;
+	*/
+	position: absolute;
+    left: 20%;
+    top: 70px;
+    width: 450px;
+}
+    #content a {
+	    color: #E51400;
+	    text-decoration: none;
+	    font-weight: 400;
+    }
+    #content a:hover 
+    {
+        color: #E51400;
+	    text-decoration: underline;
+    }
+    
+.highlight
+{ font-size: 130%;}
